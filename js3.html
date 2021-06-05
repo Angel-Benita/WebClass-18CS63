@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Example for Object & Functions</h1>
+    <p id="first"></p>
+    <script type="text/javascript">
+      var student = {
+        firstname:"Angel",
+        lastname:"Benita",
+        USN:"4vv18cs014",
+        fullname:function(){
+          return this.firstname+" "+this.lastname;
+        }
+      };
+      document.getElementById("first").innerHTML = student.fullname();
+    </script>
+  </body>
+</html>

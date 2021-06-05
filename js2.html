@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <p id="first"></p>
+    <script type="text/javascript">
+      var time = new Date().getHours();
+      if(time<11) {
+        document.getElementById("first").innerHTML='Good Morning';
+      }
+      else if (time<18) {
+        document.getElementById("first").innerHTML='Good Day';
+      }
+      else {
+        document.getElementById("first").innerHTML='Good Evening';
+      }
+    </script>
+  </body>
+</html>

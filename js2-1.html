@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p id="first"></p>
+    <p>while loop example</p>
+    <script type="text/javascript">
+      var department = ['CS','IS','EEE','ME'];
+      var dept;
+      var i = 0;
+      //for (var i = 0; i < department.length; i++){
+      //dept+=department[i]+"<br>";
+      //}
+      while ( i < department.length) {
+        dept+=department[i]+"<br>";
+        i++;
+      }
+      document.getElementById("first").innerHTML=dept;
+      alert("example of alert message")
+    </script>
+  </body>
+</html>
